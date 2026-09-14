@@ -1,11 +1,11 @@
 # ChurnQuest: Navigating the Waves of Customer Retention in Telecommunications
 
-## 📌 Project Overview
+##  Project Overview
 This repository contains a comprehensive data analytics project aimed at identifying, analyzing, and predicting customer churn for **Airtel**, a leading telecommunications company. By examining subscriber usage behaviors, billing charges, and customer support patterns, this project builds data-driven solutions to isolate the primary triggers of customer attrition and provides actionable strategies to improve customer retention.
 
 ---
 
-## 🛠 Tools & Technologies
+##  Tools & Technologies
 The entire analytical workflow was constructed in **Jupyter Notebook** using an end-to-end Python data science pipeline:
 * **Data Manipulation & Processing:** `Python 3`, `Pandas`, `NumPy`
 * **Statistical Analysis & Modelling:** `SciPy (Stats)`, `Scikit-Learn` (Logistic Regression, K-Means Clustering, StandardScaler)
@@ -13,7 +13,7 @@ The entire analytical workflow was constructed in **Jupyter Notebook** using an 
 
 ---
 
-## 📋 Project Requirements & Prerequisites
+##  Project Requirements & Prerequisites
 To run the analysis scripts locally, ensure you have a Python environment setup with the following dependencies installed:
 
 ```bash
@@ -29,7 +29,7 @@ The analysis relies on the **Kaggle Customer Churn Prediction 2020** dataset, wh
 
 ---
 
-## ⚡ Challenges Faced & Technical Solutions
+##  Challenges Faced & Technical Solutions
 
 ### 1. Hard Chronological Timestamps Absence
 * **Challenge:** The dataset lacked explicit date or time fields, making a standard time-series seasonal decomposition impossible.
@@ -49,7 +49,7 @@ The analysis relies on the **Kaggle Customer Churn Prediction 2020** dataset, wh
 
 ---
 
-## 📊 Core Analytical Insights
+##  Core Analytical Insights
 
 * **The Customer Service Tipping Point:** A distinct risk inflection point occurs when a customer crosses **3 support calls**. Churn rates surge exponentially for subscribers in this high-frequency bracket, confirming that unresolved service queries directly trigger churn.
 * **The High-Usage Billing Trap:** The day billing structure is strictly linear (a flat rate per minute with no cost ceilings). Consequently, your heaviest daytime talk-volume users face steep billing fees, making them highly susceptible to leaving for competitors offering unlimited plans.
@@ -58,7 +58,7 @@ The analysis relies on the **Kaggle Customer Churn Prediction 2020** dataset, wh
 
 ---
 
-## 💡 Strategic Recommendations for Improvements
+##  Strategic Recommendations for Improvements
 
 ### 1. Introduce Automated Support Escalation Thresholds
 Implement an automated flag in the CRM system for any subscriber making their **3rd customer service call** within a billing cycle. Route these users immediately to a specialized customer retention squad to resolve complaints before the customer defects.
